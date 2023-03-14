@@ -19,7 +19,7 @@ return {
   },
   o = {
     --Neovide config
-    guifont = "JetBrains_Mono,Nerd:h10",
+    guifont = "JetBrains_Mono,Symbols_Nerd_Font_Mono:h10", --Установить Nerd Mono.
   },
 }
 -- If you need more control, you can use the function()...end notation
