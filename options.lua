@@ -7,6 +7,8 @@ return {
     spell = false,         -- sets vim.opt.spell
     signcolumn = "auto",   -- sets vim.opt.signcolumn to auto
     wrap = false,          -- sets vim.opt.wrap
+
+    spelllang = {"en_us", "ru_yo"},
   },
   g = {
     mapleader = " ",                 -- sets vim.g.mapleader
@@ -18,6 +20,8 @@ return {
     ui_notifications_enabled = true, -- disable notifications when toggling UI elements
   },
   o = {
+    keymap = "russian-jcukenwin",
+    iminsert = 0,
     --Neovide config
     guifont = "JetBrains_Mono,Symbols_Nerd_Font_Mono:h10", --Установить Nerd Mono.
   },
