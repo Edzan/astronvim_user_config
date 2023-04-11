@@ -51,6 +51,23 @@ return {
       -- "pyright"
     },
     config = {
+      rust_analyzer = {
+        settings = {
+          ["rust-analyzer"] = {
+            checkOnSave = {
+              allFeatures = true,
+              overrideCommand = {
+                "cargo",
+                "clippy",
+                "--workspace",
+                "--message-format=json",
+                "--all-targets",
+                "--all-features",
+              },
+            },
+          },
+        },
+      },
       lua_ls = {
         filetypes = { "lua",  "script"},
         autostart = true,
