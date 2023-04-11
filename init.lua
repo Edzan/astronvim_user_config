@@ -52,6 +52,7 @@ return {
     },
     config = {
       rust_analyzer = {
+        on_attach = function(client) client.server_capabilities.semanticTokensProvider = nil end,
         settings = {
           ["rust-analyzer"] = {
             checkOnSave = {
@@ -69,7 +70,7 @@ return {
         },
       },
       lua_ls = {
-        filetypes = { "lua",  "script"},
+        filetypes = { "lua", "script" },
         autostart = true,
       },
     },

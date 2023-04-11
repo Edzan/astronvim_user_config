@@ -75,6 +75,14 @@ return {
   --   end,
   -- },
   {
+    "nvim-treesitter/nvim-treesitter",
+    opts = {
+      highlight = {
+        enable = true,
+      },
+    },
+  },
+  {
     "simrat39/rust-tools.nvim",
     opts = {
       tools = {
