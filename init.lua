@@ -52,6 +52,7 @@ return {
     },
     config = {
       lua_ls = {
+        filetypes = { "lua",  "script"},
         autostart = true,
       },
     },

@@ -22,8 +22,9 @@ return {
   o = {
     keymap = "russian-jcukenwin",
     iminsert = 0,
+    imsearch=0,
     --Neovide config
-    guifont = "JetBrains_Mono,Symbols_Nerd_Font_Mono:h10", --Установить Nerd Mono.
+    guifont = "JetBrains_Mono,Symbols_Nerd_Font_Mono:h10.5", --Установить Nerd Mono.
   },
 }
 -- If you need more control, you can use the function()...end notation
