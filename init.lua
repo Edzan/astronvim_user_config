@@ -72,6 +72,14 @@ return {
       lua_ls = {
         filetypes = { "lua", "script" },
         autostart = true,
+        settings = {
+          ["Lua"] = {
+            telemetry = { enable = false },
+            runtime = {
+              version = "LuaJIT",
+            },
+          },
+        },
       },
     },
   },
